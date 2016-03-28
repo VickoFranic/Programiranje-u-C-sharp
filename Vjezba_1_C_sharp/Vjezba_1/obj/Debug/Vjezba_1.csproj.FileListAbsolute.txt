@@ -1,0 +1,12 @@
+C:\Users\Vicko\Desktop\C# VJEZBE\C_sharp_VJEZBE\Vjezba_1\Vjezba_1\bin\Debug\Vjezba_1.exe.config
+C:\Users\Vicko\Desktop\C# VJEZBE\C_sharp_VJEZBE\Vjezba_1\Vjezba_1\obj\Debug\Vjezba_1.csprojResolveAssemblyReference.cache
+C:\Users\Vicko\Desktop\C# VJEZBE\C_sharp_VJEZBE\Vjezba_1\Vjezba_1\bin\Debug\Vjezba_1.exe
+C:\Users\Vicko\Desktop\C# VJEZBE\C_sharp_VJEZBE\Vjezba_1\Vjezba_1\bin\Debug\Vjezba_1.pdb
+C:\Users\Vicko\Desktop\C# VJEZBE\C_sharp_VJEZBE\Vjezba_1\Vjezba_1\obj\Debug\Vjezba_1.exe
+C:\Users\Vicko\Desktop\C# VJEZBE\C_sharp_VJEZBE\Vjezba_1\Vjezba_1\obj\Debug\Vjezba_1.pdb
+C:\Users\Vicko\Desktop\C# VJEZBE\REPO\Vjezba_1\bin\Debug\Vjezba_1.exe.config
+C:\Users\Vicko\Desktop\C# VJEZBE\REPO\Vjezba_1\obj\Debug\Vjezba_1.exe
+C:\Users\Vicko\Desktop\C# VJEZBE\REPO\Vjezba_1\obj\Debug\Vjezba_1.pdb
+C:\Users\Vicko\Desktop\C# VJEZBE\REPO\Vjezba_1\bin\Debug\Vjezba_1.exe
+C:\Users\Vicko\Desktop\C# VJEZBE\REPO\Vjezba_1\bin\Debug\Vjezba_1.pdb
+C:\Users\Vicko\Desktop\C# VJEZBE\REPO\Vjezba_1\obj\Debug\Vjezba_1.csprojResolveAssemblyReference.cache
