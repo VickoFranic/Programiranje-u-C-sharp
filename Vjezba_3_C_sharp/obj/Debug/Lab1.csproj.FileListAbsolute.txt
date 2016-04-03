@@ -1,0 +1,10 @@
+C:\Users\Vicko\Desktop\C# VJEZBE\Razno\Lab2\obj\Debug\Lab1.exe
+C:\Users\Vicko\Desktop\C# VJEZBE\Razno\Lab2\obj\Debug\Lab1.pdb
+C:\Users\Vicko\Desktop\C# VJEZBE\Razno\Lab2\bin\Debug\Lab1.exe
+C:\Users\Vicko\Desktop\C# VJEZBE\Razno\Lab2\bin\Debug\Lab1.pdb
+C:\Users\Vicko\Desktop\C# VJEZBE\Razno\Lab2\obj\Debug\Lab1.csprojResolveAssemblyReference.cache
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_3_C_sharp\obj\Debug\Lab1.exe
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_3_C_sharp\obj\Debug\Lab1.pdb
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_3_C_sharp\bin\Debug\Lab1.exe
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_3_C_sharp\bin\Debug\Lab1.pdb
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_3_C_sharp\obj\Debug\Lab1.csprojResolveAssemblyReference.cache
