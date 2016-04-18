@@ -1,0 +1,8 @@
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_5_C_sharp\Lab5\obj\Debug\Lab3.exe
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_5_C_sharp\Lab5\obj\Debug\Lab3.pdb
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_5_C_sharp\Lab5\bin\Debug\Lab3.exe
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_5_C_sharp\Lab5\bin\Debug\Lab3.pdb
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_5_C_sharp\Lab5\obj\Debug\Lab3.csprojResolveAssemblyReference.cache
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_5_C_sharp\Lab5\obj\Debug\Labs.AddShapeForm.resources
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_5_C_sharp\Lab5\obj\Debug\Labs.Lab3AppForm.resources
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_5_C_sharp\Lab5\obj\Debug\Lab3.csproj.GenerateResource.Cache

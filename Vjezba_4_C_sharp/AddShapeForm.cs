@@ -199,10 +199,23 @@ namespace Labs
         /**
          * @return int
          */
-        public int getSelectedType()
+        public Type getSelectedType()
         {
 
-            return 0;
+            if (radioButton1.Checked)
+            {
+                return typeof(Circle);
+            }
+            else if (radioButton2.Checked)
+            {
+                return typeof(Square);
+            }
+            else if (radioButton3.Checked)
+            {
+                return typeof(Triangle);
+            }
+
+            return null;
         }
 
         /**
