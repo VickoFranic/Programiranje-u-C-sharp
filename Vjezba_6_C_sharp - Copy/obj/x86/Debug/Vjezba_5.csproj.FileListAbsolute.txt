@@ -12,3 +12,12 @@ C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_5_C_sharp\bin\De
 C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_5_C_sharp\bin\Debug\Vjezba_5.pdb
 C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_5_C_sharp\obj\x86\Debug\Vjezba_5.PersonsListForm.resources
 C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_5_C_sharp\obj\x86\Debug\Vjezba_5.PersonAddOrEditForm.resources
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_6_C_sharp - Copy\obj\x86\Debug\Vjezba_5.exe
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_6_C_sharp - Copy\obj\x86\Debug\Vjezba_5.pdb
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_6_C_sharp - Copy\bin\Debug\Vjezba_5.exe
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_6_C_sharp - Copy\bin\Debug\Vjezba_5.pdb
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_6_C_sharp - Copy\obj\x86\Debug\Vjezba_5.csprojResolveAssemblyReference.cache
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_6_C_sharp - Copy\obj\x86\Debug\Vjezba_5.PersonAddOrEditForm.resources
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_6_C_sharp - Copy\obj\x86\Debug\Vjezba_5.PersonsListForm.resources
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_6_C_sharp - Copy\obj\x86\Debug\Vjezba_5.Properties.Resources.resources
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_6_C_sharp - Copy\obj\x86\Debug\Vjezba_5.csproj.GenerateResource.Cache

@@ -32,5 +32,40 @@ namespace Vjezba_5
             }
         }
 
+        private void contextMenuStrip1_Opening(object sender, CancelEventArgs e)
+        {
+            
+        }
+
+        private void editToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ListViewItem item = listView1.SelectedItems[0];
+            int index = item.Index;
+
+            Person p = PersonRepository.getAllPersons()[index];
+
+            PersonAddOrEditForm editPerson = new PersonAddOrEditForm(p);
+
+            editPerson.ShowDialog(this);
+
+            if (editPerson.DialogResult == DialogResult.OK)
+            {
+                // Get Person model for ListView
+                Person pr = editPerson.newPerson;
+
+                // Save new person to repository
+                PersonRepository.getAllPersons()[index] = pr;
+
+                // Create ListView item to append
+                ListViewItem listItem = new ListViewItem(new[] { pr.Name, pr.LastName });
+                listView1.Items.RemoveAt(index);
+                listView1.Items.Insert(index, listItem);
+
+
+                editPerson.Dispose();
+            }
+            
+        }
+
     }
 }
