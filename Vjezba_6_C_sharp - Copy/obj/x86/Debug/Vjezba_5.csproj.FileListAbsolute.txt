@@ -1,0 +1,14 @@
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_5_C_sharp\Vjezba_5\bin\Debug\Vjezba_5.exe
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_5_C_sharp\Vjezba_5\bin\Debug\Vjezba_5.pdb
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_5_C_sharp\Vjezba_5\obj\x86\Debug\Vjezba_5.Properties.Resources.resources
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_5_C_sharp\Vjezba_5\obj\x86\Debug\Vjezba_5.csproj.GenerateResource.Cache
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_5_C_sharp\Vjezba_5\obj\x86\Debug\Vjezba_5.exe
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_5_C_sharp\Vjezba_5\obj\x86\Debug\Vjezba_5.pdb
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_5_C_sharp\obj\x86\Debug\Vjezba_5.exe
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_5_C_sharp\obj\x86\Debug\Vjezba_5.pdb
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_5_C_sharp\obj\x86\Debug\Vjezba_5.Properties.Resources.resources
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_5_C_sharp\obj\x86\Debug\Vjezba_5.csproj.GenerateResource.Cache
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_5_C_sharp\bin\Debug\Vjezba_5.exe
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_5_C_sharp\bin\Debug\Vjezba_5.pdb
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_5_C_sharp\obj\x86\Debug\Vjezba_5.PersonsListForm.resources
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_5_C_sharp\obj\x86\Debug\Vjezba_5.PersonAddOrEditForm.resources
