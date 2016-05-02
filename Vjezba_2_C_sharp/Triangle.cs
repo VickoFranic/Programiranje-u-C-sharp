@@ -10,7 +10,7 @@ namespace Labs
     {
         /**
          * @param oneSide
-         */
+         */s
         private double oneSide;
 
         /**

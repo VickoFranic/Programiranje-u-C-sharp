@@ -6,3 +6,11 @@ C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_4_C_sharp\obj\De
 C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_4_C_sharp\obj\Debug\Labs.AddShapeForm.resources
 C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_4_C_sharp\obj\Debug\Labs.Lab2AppForm.resources
 C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_4_C_sharp\obj\Debug\Lab2.csproj.GenerateResource.Cache
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_4_C_sharp\obj\Debug\Lab2.exe
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_4_C_sharp\bin\Debug\Lab2.exe
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_4_C_sharp\bin\Debug\Lab2.pdb
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_4_C_sharp\obj\Debug\Lab2.csprojResolveAssemblyReference.cache
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_4_C_sharp\obj\Debug\Labs.AddShapeForm.resources
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_4_C_sharp\obj\Debug\Labs.Lab2AppForm.resources
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_4_C_sharp\obj\Debug\Lab2.csproj.GenerateResource.Cache
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_4_C_sharp\obj\Debug\Lab2.pdb
