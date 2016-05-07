@@ -13,6 +13,16 @@ namespace Vjezba_5
     {
         public Person newPerson = new Person();
 
+        public PersonAddOrEditForm(Person p)
+        {
+            InitializeComponent();
+
+            newPerson = p;
+            textBox1.Text = p.Name;
+            textBox2.Text = p.LastName;
+            textBox3.Text = p.Age.ToString();
+        }
+
         public PersonAddOrEditForm()
         {
             InitializeComponent();
