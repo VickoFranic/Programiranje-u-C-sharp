@@ -2,7 +2,7 @@
 ## Odjel za stručne studije u Splitu - OSS Split
 [https://www.oss.unist.hr/](https://www.oss.unist.hr/)
 
-*Vjezbe iz kolegija Programiranje u C#*
+## Vjezbe iz kolegija Programiranje u C#
 
 ![](http://www.werkinafrika.nl/wp-content/uploads/2015/11/csharp-logo.png)
 
@@ -12,5 +12,5 @@
 
 > C# based desktop application for BandManager application. Under active development.
 
-Web app: [https://bandmanager.herokuapp.com/](https://bandmanager.herokuapp.com/)
+Web app: https://bandmanager.herokuapp.com/
 Repo: https://github.com/VickoFranic/silex-starter-app/tree/bandmanager
