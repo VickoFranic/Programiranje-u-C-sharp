@@ -1,12 +1,14 @@
 ﻿using System;
-using System.Net;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Net;
 using Newtonsoft.Json;
-using WindowsFormsApplication1.lib.models;
+using BandManagerApp.lib.models;
 
-namespace WindowsFormsApplication1.lib.services
+namespace BandManagerApp.lib.services
 {
-    static class BandManagerService
+    class BandManagerService
     {
         private static string _baseUrl = "http://bandmanager.dev/api/";
         private static WebClient webClient = new WebClient();
@@ -23,6 +25,5 @@ namespace WindowsFormsApplication1.lib.services
             users = JsonConvert.DeserializeObject<List<User>>(response);
             return users;
         }
-
     }
 }

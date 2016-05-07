@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace WindowsFormsApplication1.lib.models
+namespace BandManagerApp.lib.models
 {
-    public class User
+    class User
     {
         public string facebook_id;
         public string name;

@@ -1,11 +1,13 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 using System.IO;
 using Facebook;
-using WindowsFormsApplication1.lib.models;
-using System.Collections.Generic;
 using Newtonsoft.Json;
+using BandManagerApp.lib.models;
 
-namespace WindowsFormsApplication1.lib.services
+namespace BandManagerApp.lib.services
 {
     class FacebookService
     {
@@ -14,8 +16,8 @@ namespace WindowsFormsApplication1.lib.services
         public FacebookService()
         {
             FacebookClient client = new FacebookClient();
-            client.AppId = "xxxxxxxxxxxxx";
-            client.AppSecret = "xxxxxxxxxxxxxxxxxxxxxxx";
+            client.AppId = "1528884584098427";
+            client.AppSecret = "be72e6242362fbe0735232e547060c3f";
 
             Facebook = client;
         }

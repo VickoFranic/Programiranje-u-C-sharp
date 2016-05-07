@@ -1,0 +1,12 @@
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\BandManagerApp\obj\x86\Debug\BandManagerApp.csprojResolveAssemblyReference.cache
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\BandManagerApp\obj\x86\Debug\BandManagerApp.MainAppForm.resources
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\BandManagerApp\obj\x86\Debug\BandManagerApp.Properties.Resources.resources
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\BandManagerApp\obj\x86\Debug\BandManagerApp.csproj.GenerateResource.Cache
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\BandManagerApp\bin\Debug\BandManagerApp.exe
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\BandManagerApp\bin\Debug\BandManagerApp.pdb
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\BandManagerApp\bin\Debug\Facebook.dll
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\BandManagerApp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\BandManagerApp\bin\Debug\Facebook.xml
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\BandManagerApp\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\BandManagerApp\obj\x86\Debug\BandManagerApp.exe
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\BandManagerApp\obj\x86\Debug\BandManagerApp.pdb
