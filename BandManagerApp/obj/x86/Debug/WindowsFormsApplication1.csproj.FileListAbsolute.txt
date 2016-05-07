@@ -1,0 +1,14 @@
+C:\Users\Vicko\Desktop\C# VJEZBE\Razno\facebook-csharp-sdk\Source\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Vicko\Desktop\C# VJEZBE\Razno\facebook-csharp-sdk\Source\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Vicko\Desktop\C# VJEZBE\Razno\facebook-csharp-sdk\Source\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Vicko\Desktop\C# VJEZBE\Razno\facebook-csharp-sdk\Source\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+C:\Users\Vicko\Desktop\C# VJEZBE\Razno\facebook-csharp-sdk\Source\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Users\Vicko\Desktop\C# VJEZBE\Razno\facebook-csharp-sdk\Source\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Users\Vicko\Desktop\C# VJEZBE\Razno\facebook-csharp-sdk\Source\WindowsFormsApplication1\bin\Debug\Facebook.dll
+C:\Users\Vicko\Desktop\C# VJEZBE\Razno\facebook-csharp-sdk\Source\WindowsFormsApplication1\bin\Debug\Facebook.pdb
+C:\Users\Vicko\Desktop\C# VJEZBE\Razno\facebook-csharp-sdk\Source\WindowsFormsApplication1\bin\Debug\Facebook.xml
+C:\Users\Vicko\Desktop\C# VJEZBE\Razno\facebook-csharp-sdk\Source\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csprojResolveAssemblyReference.cache
+C:\Users\Vicko\Desktop\C# VJEZBE\Razno\facebook-csharp-sdk\Source\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Users\Vicko\Desktop\C# VJEZBE\Razno\facebook-csharp-sdk\Source\WindowsFormsApplication1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Vicko\Desktop\C# VJEZBE\Razno\facebook-csharp-sdk\Source\WindowsFormsApplication1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Vicko\Desktop\C# VJEZBE\Razno\facebook-csharp-sdk\Source\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.UserProfile.resources
