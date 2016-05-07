@@ -13,4 +13,5 @@
 > C# based desktop application for BandManager application. Under active development.
 
 Web app: https://bandmanager.herokuapp.com/
+<br>
 Repo: https://github.com/VickoFranic/silex-starter-app/tree/bandmanager
