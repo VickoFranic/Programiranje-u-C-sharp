@@ -5,7 +5,7 @@ using System.Text;
 
 namespace BandManagerApp.lib.models
 {
-    class User
+    public class User
     {
         public string facebook_id;
         public string name;

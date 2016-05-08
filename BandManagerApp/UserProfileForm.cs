@@ -11,22 +11,39 @@ using BandManagerApp.lib.services;
 
 namespace BandManagerApp
 {
+    // Get all users from API
+    //List<User> users = BandManagerService.getAllUsers();
+    //User loggedInUser = users.Find(item => item.facebook_id == userFacebookID);
+
     public partial class UserProfileForm : Form
     {
-        User loggedInUser;
+        private User USER;
         private FacebookService Facebook = new FacebookService();
 
-        public UserProfileForm()
+        public UserProfileForm(User user)
         {
             InitializeComponent();
 
-            loggedInUser = BandManagerService.CURRENT_USER;
+            USER = user;
+            pictureBox1.Load(USER.picture);
+            label4.Text = USER.facebook_id;
+            label3.Text = USER.name;
 
-            string largerProfilePictureURL = Facebook.getLargeProfilePictureForUser(loggedInUser);
+            createUserPagesPanel();
+        }
 
-            pictureBox1.Load(largerProfilePictureURL);
-            label4.Text = loggedInUser.facebook_id;
-            label3.Text = loggedInUser.name;
+        public void createUserPagesPanel()
+        {
+            List<Page> pages = BandManagerService.getUserPages(USER);
+
+           if (pages.Count != 0)
+           {
+               ListViewItem lvi = new ListViewItem(pages[0].name);
+               foreach (Page page in pages)
+               {
+                   listView1.Items.Add(new ListViewItem(page.name));
+               }
+           }
         }
     }
 }

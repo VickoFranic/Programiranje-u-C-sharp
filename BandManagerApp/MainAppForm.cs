@@ -8,37 +8,62 @@ using System.Text;
 using System.Windows.Forms;
 using BandManagerApp.lib.models;
 using BandManagerApp.lib.services;
+using CefSharp.WinForms;
+using CefSharp.WinForms.Internals;
+using CefSharp;
 
 namespace BandManagerApp
 {
     public partial class MainAppForm : Form
     {
+        FacebookService Facebook;
+        ChromiumWebBrowser Browser;
+        UserProfileForm userProfileForm;
+
         public MainAppForm()
         {
             InitializeComponent();
+
+            Facebook = new FacebookService();
+
+        }
+
+        /**
+         * Show user profile form
+         */
+        private void showUserProfile(string accessToken)
+        {
+            User user = Facebook.getFacebookUser(accessToken);
+
+            userProfileForm = new UserProfileForm(user);
+            this.Visible = false;
+            userProfileForm.ShowDialog();
+
+            if (userProfileForm.DialogResult == System.Windows.Forms.DialogResult.Cancel)
+            {
+                Browser.Dispose();
+                this.Close();
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var userFacebookID = facebookIDTextBox.Text.ToString();
-            // var password = passwordTextBox.Text; // TO DO on backend
+            Uri loginUrl = Facebook.generateLoginUrl();
+            Browser = new ChromiumWebBrowser(loginUrl.AbsoluteUri);
 
-            // Get all users from API
-            List<User> users = BandManagerService.getAllUsers();
+            groupBox1.Controls.Clear();
+            groupBox1.Controls.Add(Browser);
 
-            // Check user credentials - add password (TO DO)
-            User loggedInUser = users.Find(item => item.facebook_id == userFacebookID);
+            Browser.AddressChanged += OnBrowserAddressChanged;
+        }
 
-            if (loggedInUser != null)
-            {
-                BandManagerService.CURRENT_USER = loggedInUser;
+        private void OnBrowserAddressChanged(object sender, AddressChangedEventArgs args)
+        {
+            Uri callback = new Uri(args.Address);
+            string accessToken = Facebook.getAccessTokenFromCallback(callback);
 
-                this.Visible = false;
-                UserProfileForm userProfileForm = new UserProfileForm();
-                userProfileForm.ShowDialog();
-                this.Close();
-
-            }
+            if (accessToken != String.Empty)
+                showUserProfile(accessToken);
         }
     }
 }

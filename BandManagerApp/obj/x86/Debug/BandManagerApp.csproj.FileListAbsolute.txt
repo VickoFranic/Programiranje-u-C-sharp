@@ -10,3 +10,10 @@ C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\BandManagerApp\bin\Debu
 C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\BandManagerApp\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\BandManagerApp\obj\x86\Debug\BandManagerApp.exe
 C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\BandManagerApp\obj\x86\Debug\BandManagerApp.pdb
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\BandManagerApp\bin\Debug\CefSharp.Core.dll
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\BandManagerApp\bin\Debug\CefSharp.dll
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\BandManagerApp\bin\Debug\CefSharp.WinForms.dll
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\BandManagerApp\bin\Debug\CefSharp.WinForms.xml
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\BandManagerApp\bin\Debug\CefSharp.xml
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\BandManagerApp\bin\Debug\CefSharp.Core.xml
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\BandManagerApp\obj\x86\Debug\BandManagerApp.UserProfileForm.resources
