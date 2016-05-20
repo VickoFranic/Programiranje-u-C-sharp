@@ -1,7 +1,6 @@
 using System;
 using System.Windows.Forms;
 using System.Drawing;
-using System.ComponentModel;
 
 namespace Labs
 {
@@ -10,16 +9,13 @@ namespace Labs
 	/// </summary>
 	public class MyLabel:System.Windows.Forms.Label
     {
-        private bool _isOdd;
-        private System.ComponentModel.IContainer components;
-        private ContextMenuStrip contextMenuStrip1;
-        private int ind;
+		private bool _isOdd;
+        ContextMenu cm = new ContextMenu();
 
 		public MyLabel(int index)
 		{			
 			int width=250;
 			int height=80;
-            ind = index;
 
 			this.Text=System.Convert.ToString(index);
 			this.Size=new Size(width,height);			
@@ -46,7 +42,10 @@ namespace Labs
 			this.DragLeave += new System.EventHandler(this.MyLabel_DragLeave);
 			this.DragDrop += new System.Windows.Forms.DragEventHandler(this.MyLabel_DragDrop);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.MyLabel_MouseDown);
-//            this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
+
+            MenuItem menuItem1 = new MenuItem("Show Person data");
+            menuItem1.Click += new System.EventHandler(this.ShowPersonData_Click);
+            cm.MenuItems.Add(menuItem1);
 		}
 
       
@@ -95,17 +94,10 @@ namespace Labs
 
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.SuspendLayout();
             // 
-            // contextMenuStrip1
+            // MyLabel
             // 
-            this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
-
-            ToolStripMenuItem tsmi = new ToolStripMenuItem("Edit Person Data");
-            this.contextMenuStrip1.Items.Add(tsmi);
 
             this.ResumeLayout(false);
 
@@ -113,27 +105,19 @@ namespace Labs
 
         private void MyLabel_MouseDown(object sender, MouseEventArgs e)
         {
-            if (e.Button == System.Windows.Forms.MouseButtons.Left)
+            if (e.Button == MouseButtons.Right)
             {
-                this.Text = this.ind.ToString();
-                DoDragDrop(this.Tag, DragDropEffects.Move);
-            }
-
-            if (e.Button == System.Windows.Forms.MouseButtons.Right)
-            {
-                CancelEventArgs cea = new CancelEventArgs(false);
-                this.contextMenuStrip1_Opening(this, cea);
+                cm.Show(this, new Point(e.X, e.Y));
             }
         }
 
-        private void contextMenuStrip1_Opening(object sender, System.ComponentModel.CancelEventArgs e)
+        private void ShowPersonData_Click(object sender, System.EventArgs e)
         {
             ListViewItem lvi = (ListViewItem)this.Tag;
             Person p = (Person)lvi.Tag;
 
             PersonPropertiesForm ppf = new PersonPropertiesForm(p);
             ppf.ShowDialog(this);
-
             if (ppf.DialogResult == DialogResult.OK)
             {
                 try
@@ -143,19 +127,17 @@ namespace Labs
                     p.Age = System.Convert.ToInt32(ppf.getAgeTextBoxText());
                     p.City = ppf.getCityComboBoxText();
 
-                    lvi.SubItems[0].Text = p.Name;
-                    lvi.SubItems[1].Text = p.LastName;
-
-                    this.Text = p.Name + " " + p.LastName;
+                    this.Text = p.Name + ' ' + p.LastName;
                 }
-                catch (Exception exc)
+                catch
                 {
-                    MessageBox.Show(exc.Message);
+
                 }
 
             }
             ppf.Dispose();
         }
+
 
 	}
 }
