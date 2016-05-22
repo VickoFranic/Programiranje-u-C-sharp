@@ -1,0 +1,7 @@
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_9_C_sharp\obj\Debug\Lab_UndoRedo.exe
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_9_C_sharp\obj\Debug\Lab_UndoRedo.pdb
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_9_C_sharp\bin\Debug\Lab_UndoRedo.exe
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_9_C_sharp\bin\Debug\Lab_UndoRedo.pdb
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_9_C_sharp\obj\Debug\Labs.AppForm.resources
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_9_C_sharp\obj\Debug\Labs.PersonPropertiesForm.resources
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_9_C_sharp\obj\Debug\Lab_UndoRedo.csproj.GenerateResource.Cache
