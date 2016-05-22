@@ -80,6 +80,7 @@ namespace Labs
             // 
             // listView1
             // 
+            this.listView1.AllowDrop = true;
             this.listView1.BackColor = System.Drawing.SystemColors.Window;
             this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
             this.columnHeader1,
@@ -97,6 +98,8 @@ namespace Labs
             this.listView1.UseCompatibleStateImageBehavior = false;
             this.listView1.View = System.Windows.Forms.View.Details;
             this.listView1.ItemDrag += new System.Windows.Forms.ItemDragEventHandler(this.listView1_ItemDrag);
+            this.listView1.DragDrop += new System.Windows.Forms.DragEventHandler(this.listView1_DragDrop);
+            this.listView1.DragEnter += new System.Windows.Forms.DragEventHandler(this.listView1_DragEnter);
             this.listView1.DoubleClick += new System.EventHandler(this.ShowPersonData_Click);
             // 
             // columnHeader1
@@ -141,6 +144,7 @@ namespace Labs
             this.ClientSize = new System.Drawing.Size(576, 355);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.listView1);
+            this.Menu = this.mainMenu1;
             this.Name = "AppForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lab3_4";
@@ -249,6 +253,31 @@ namespace Labs
 				listView1.Items.Remove(dragedLvi);
 			}
 		}
+
+        /**
+         * Enable Copy effect on listview
+         */
+        private void listView1_DragEnter(object sender, DragEventArgs e)
+        {
+            e.Effect = DragDropEffects.Copy;
+        }
+
+        /**
+         * Add item to listview item on DragDrop
+         */
+        private void listView1_DragDrop(object sender, DragEventArgs e)
+        {
+            if (e.Data.GetDataPresent(DataFormats.Serializable))
+            {
+                ListViewItem item = (ListViewItem)e.Data.GetData(DataFormats.Serializable);
+                Person dropedPerson = (Person)item.Tag;
+
+                string[] str = new string[2] { dropedPerson.Name, dropedPerson.LastName };
+                ListViewItem lvi = new ListViewItem(str);
+                lvi.Tag = dropedPerson;
+                listView1.Items.Add(lvi);
+            }
+        }		
 
 	}
 }
