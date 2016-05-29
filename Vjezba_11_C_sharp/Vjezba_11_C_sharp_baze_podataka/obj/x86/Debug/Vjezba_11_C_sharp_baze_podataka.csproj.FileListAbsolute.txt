@@ -1,0 +1,15 @@
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\bin\Debug\Vjezba_11_C_sharp_baze_podataka.exe.config
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\bin\Debug\Studenti.mdf
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\bin\Debug\Studenti_log.ldf
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\bin\Debug\Vjezba_11_C_sharp_baze_podataka.exe
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\bin\Debug\Vjezba_11_C_sharp_baze_podataka.pdb
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\bin\Debug\EntityFramework.dll
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\bin\Debug\EntityFramework.xml
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\obj\x86\Debug\Vjezba_11_C_sharp_baze_podataka.csprojResolveAssemblyReference.cache
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\obj\x86\Debug\Vjezba_11_C_sharp_baze_podataka.AppForm.resources
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\obj\x86\Debug\Vjezba_11_C_sharp_baze_podataka.Properties.Resources.resources
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\obj\x86\Debug\Vjezba_11_C_sharp_baze_podataka.csproj.GenerateResource.Cache
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\obj\x86\Debug\Vjezba_11_C_sharp_baze_podataka.exe
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\obj\x86\Debug\Vjezba_11_C_sharp_baze_podataka.pdb

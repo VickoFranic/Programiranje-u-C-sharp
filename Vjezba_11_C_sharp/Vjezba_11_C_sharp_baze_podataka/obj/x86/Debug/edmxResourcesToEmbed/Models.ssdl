@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DB.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="DBStoreContainer">
+    <EntitySet Name="Predmeti" EntityType="DB.Store.Predmeti" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PredmetiStudenti" EntityType="DB.Store.PredmetiStudenti" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Studenti" EntityType="DB.Store.Studenti" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="FK_PredmetiStudenti_Predmeti" Association="DB.Store.FK_PredmetiStudenti_Predmeti">
+      <End Role="Predmeti" EntitySet="Predmeti" />
+      <End Role="PredmetiStudenti" EntitySet="PredmetiStudenti" />
+    </AssociationSet>
+    <AssociationSet Name="FK_PredmetiStudenti_Studenti" Association="DB.Store.FK_PredmetiStudenti_Studenti">
+      <End Role="Studenti" EntitySet="Studenti" />
+      <End Role="PredmetiStudenti" EntitySet="PredmetiStudenti" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Predmeti">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Naziv" Type="nchar" Nullable="false" MaxLength="30" />
+  </EntityType>
+  <EntityType Name="PredmetiStudenti">
+    <Key>
+      <PropertyRef Name="IdPredmeta" />
+      <PropertyRef Name="IdStudenta" />
+    </Key>
+    <Property Name="IdPredmeta" Type="int" Nullable="false" />
+    <Property Name="IdStudenta" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Studenti">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="Ime" Type="nchar" Nullable="false" MaxLength="20" />
+    <Property Name="Prezime" Type="nchar" Nullable="false" MaxLength="20" />
+  </EntityType>
+  <Association Name="FK_PredmetiStudenti_Predmeti">
+    <End Role="Predmeti" Type="DB.Store.Predmeti" Multiplicity="1" />
+    <End Role="PredmetiStudenti" Type="DB.Store.PredmetiStudenti" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Predmeti">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PredmetiStudenti">
+        <PropertyRef Name="IdPredmeta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_PredmetiStudenti_Studenti">
+    <End Role="Studenti" Type="DB.Store.Studenti" Multiplicity="1" />
+    <End Role="PredmetiStudenti" Type="DB.Store.PredmetiStudenti" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Studenti">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="PredmetiStudenti">
+        <PropertyRef Name="IdStudenta" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
