@@ -115,11 +115,9 @@ namespace Labs
             if (e.Button == MouseButtons.Left)
             {
                 ListViewItem lvi = (ListViewItem)this.Tag;
-                this.Text = ((Person)lvi.Tag).Index.ToString();
 
                 // Start Drag and drop process
                 this.DoDragDrop(this.Tag, DragDropEffects.Copy);
-                this.Tag = null;
             }
             else if (e.Button == MouseButtons.Right)
             {

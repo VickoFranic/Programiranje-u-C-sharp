@@ -33,7 +33,7 @@ namespace Labs
 			//
             for (int i = 1; i < 6; i++)
             {
-                Person p = new Person("John" + i, "Wayne", 45, "Colorado");
+                Person p = new Person("John" + i, "Wayne", 45, "Rijeka");
 
                 string[] str = new string[2] { "John" + i, "Wayne" };
                 ListViewItem lvi = new ListViewItem(str);
@@ -272,10 +272,7 @@ namespace Labs
                 ListViewItem item = (ListViewItem)e.Data.GetData(DataFormats.Serializable);
                 Person dropedPerson = (Person)item.Tag;
 
-                string[] str = new string[2] { dropedPerson.Name, dropedPerson.LastName };
-                ListViewItem lvi = new ListViewItem(str);
-                lvi.Tag = dropedPerson;
-                listView1.Items.Add(lvi);
+                listView1.Items.Add(item);
             }
         }		
 
