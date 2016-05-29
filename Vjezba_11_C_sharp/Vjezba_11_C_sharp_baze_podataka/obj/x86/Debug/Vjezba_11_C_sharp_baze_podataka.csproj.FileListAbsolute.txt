@@ -13,3 +13,5 @@ C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezb
 C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\obj\x86\Debug\Vjezba_11_C_sharp_baze_podataka.csproj.GenerateResource.Cache
 C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\obj\x86\Debug\Vjezba_11_C_sharp_baze_podataka.exe
 C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\obj\x86\Debug\Vjezba_11_C_sharp_baze_podataka.pdb
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\obj\x86\Debug\Vjezba_11_C_sharp_baze_podataka.StudentForm.resources
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\obj\x86\Debug\Vjezba_11_C_sharp_baze_podataka.AddNewStudentForm.resources
