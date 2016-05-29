@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="DB.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="DBStoreContainer">
+          <EntitySet Name="Predmeti" EntityType="DB.Store.Predmeti" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="PredmetiStudenti" EntityType="DB.Store.PredmetiStudenti" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Studenti" EntityType="DB.Store.Studenti" store:Type="Tables" Schema="dbo" />
+          <AssociationSet Name="FK_PredmetiStudenti_Predmeti" Association="DB.Store.FK_PredmetiStudenti_Predmeti">
+            <End Role="Predmeti" EntitySet="Predmeti" />
+            <End Role="PredmetiStudenti" EntitySet="PredmetiStudenti" />
+          </AssociationSet>
+          <AssociationSet Name="FK_PredmetiStudenti_Studenti" Association="DB.Store.FK_PredmetiStudenti_Studenti">
+            <End Role="Studenti" EntitySet="Studenti" />
+            <End Role="PredmetiStudenti" EntitySet="PredmetiStudenti" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Predmeti">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Naziv" Type="nchar" Nullable="false" MaxLength="30" />
+        </EntityType>
+        <EntityType Name="PredmetiStudenti">
+          <Key>
+            <PropertyRef Name="IdPredmeta" />
+            <PropertyRef Name="IdStudenta" />
+          </Key>
+          <Property Name="IdPredmeta" Type="int" Nullable="false" />
+          <Property Name="IdStudenta" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Studenti">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Ime" Type="nchar" Nullable="false" MaxLength="20" />
+          <Property Name="Prezime" Type="nchar" Nullable="false" MaxLength="20" />
+        </EntityType>
+        <Association Name="FK_PredmetiStudenti_Predmeti">
+          <End Role="Predmeti" Type="DB.Store.Predmeti" Multiplicity="1" />
+          <End Role="PredmetiStudenti" Type="DB.Store.PredmetiStudenti" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Predmeti">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="PredmetiStudenti">
+              <PropertyRef Name="IdPredmeta" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_PredmetiStudenti_Studenti">
+          <End Role="Studenti" Type="DB.Store.Studenti" Multiplicity="1" />
+          <End Role="PredmetiStudenti" Type="DB.Store.PredmetiStudenti" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Studenti">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="PredmetiStudenti">
+              <PropertyRef Name="IdStudenta" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DB" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="StudentiEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Predmeti" EntityType="DB.Predmeti" />
+          <EntitySet Name="Studenti" EntityType="DB.Studenti" />
+          <AssociationSet Name="PredmetiStudenti" Association="DB.PredmetiStudenti">
+            <End Role="Predmeti" EntitySet="Predmeti" />
+            <End Role="Studenti" EntitySet="Studenti" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Predmeti">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Naziv" Type="String" Nullable="false" MaxLength="30" Unicode="true" FixedLength="true" />
+          <NavigationProperty Name="Studenti" Relationship="DB.PredmetiStudenti" FromRole="Predmeti" ToRole="Studenti" />
+        </EntityType>
+        <EntityType Name="Studenti">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Ime" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="true" />
+          <Property Name="Prezime" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="true" />
+          <NavigationProperty Name="Predmeti" Relationship="DB.PredmetiStudenti" FromRole="Studenti" ToRole="Predmeti" />
+        </EntityType>
+        <Association Name="PredmetiStudenti">
+          <End Role="Predmeti" Type="DB.Predmeti" Multiplicity="*" />
+          <End Role="Studenti" Type="DB.Studenti" Multiplicity="*" />
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DBStoreContainer" CdmEntityContainer="StudentiEntities">
+          <EntitySetMapping Name="Predmeti">
+            <EntityTypeMapping TypeName="DB.Predmeti">
+              <MappingFragment StoreEntitySet="Predmeti">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Naziv" ColumnName="Naziv" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Studenti">
+            <EntityTypeMapping TypeName="DB.Studenti">
+              <MappingFragment StoreEntitySet="Studenti">
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Ime" ColumnName="Ime" />
+                <ScalarProperty Name="Prezime" ColumnName="Prezime" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="PredmetiStudenti" TypeName="DB.PredmetiStudenti" StoreEntitySet="PredmetiStudenti">
+            <EndProperty Name="Predmeti">
+              <ScalarProperty Name="Id" ColumnName="IdPredmeta" />
+            </EndProperty>
+            <EndProperty Name="Studenti">
+              <ScalarProperty Name="Id" ColumnName="IdStudenta" />
+            </EndProperty>
+          </AssociationSetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="Models">
+        <EntityTypeShape EntityType="DB.Predmeti" Width="1.5" PointX="0.75" PointY="1" Height="1.5956835937499998" IsExpanded="true" />
+        <EntityTypeShape EntityType="DB.Studenti" Width="1.5" PointX="3" PointY="0.875" Height="1.7879850260416674" IsExpanded="true" />
+        <AssociationConnector Association="DB.PredmetiStudenti" ManuallyRouted="false">
+          <ConnectorPoint PointX="2.25" PointY="1.7978417968749998" />
+          <ConnectorPoint PointX="3" PointY="1.7978417968749998" />
+        </AssociationConnector>
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>
