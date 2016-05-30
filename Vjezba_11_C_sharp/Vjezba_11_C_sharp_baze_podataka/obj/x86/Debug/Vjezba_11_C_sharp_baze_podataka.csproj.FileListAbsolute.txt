@@ -15,3 +15,18 @@ C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezb
 C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\obj\x86\Debug\Vjezba_11_C_sharp_baze_podataka.pdb
 C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\obj\x86\Debug\Vjezba_11_C_sharp_baze_podataka.StudentForm.resources
 C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\obj\x86\Debug\Vjezba_11_C_sharp_baze_podataka.AddNewStudentForm.resources
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\bin\Debug\Vjezba_11_C_sharp_baze_podataka.exe.config
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\obj\x86\Debug\Vjezba_11_C_sharp_baze_podataka.exe
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\obj\x86\Debug\Vjezba_11_C_sharp_baze_podataka.pdb
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\bin\Debug\Vjezba_11_C_sharp_baze_podataka.exe
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\bin\Debug\Vjezba_11_C_sharp_baze_podataka.pdb
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\bin\Debug\EntityFramework.dll
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\bin\Debug\EntityFramework.SqlServer.dll
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\bin\Debug\EntityFramework.xml
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\bin\Debug\EntityFramework.SqlServer.xml
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\obj\x86\Debug\Vjezba_11_C_sharp_baze_podataka.csprojResolveAssemblyReference.cache
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\obj\x86\Debug\Vjezba_11_C_sharp_baze_podataka.AppForm.resources
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\obj\x86\Debug\Vjezba_11_C_sharp_baze_podataka.AddNewStudentForm.resources
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\obj\x86\Debug\Vjezba_11_C_sharp_baze_podataka.Properties.Resources.resources
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\obj\x86\Debug\Vjezba_11_C_sharp_baze_podataka.StudentForm.resources
+C:\laragon\www\Programiranje-u-C-sharp\Vjezba_11_C_sharp\Vjezba_11_C_sharp_baze_podataka\obj\x86\Debug\Vjezba_11_C_sharp_baze_podataka.csproj.GenerateResource.Cache

@@ -7,7 +7,6 @@ namespace Vjezba_11_C_sharp_baze_podataka
 {
     static class Program
     {
-
         /// <summary>
         /// The main entry point for the application.
         /// </summary>

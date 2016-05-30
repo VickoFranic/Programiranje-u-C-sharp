@@ -134,11 +134,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Studenti.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="Studenti.mdf" />
     <Content Include="Studenti_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>Studenti.mdf</DependentUpon>
     </Content>
   </ItemGroup>

@@ -76,6 +76,12 @@ namespace Labs
         public void setFormProperties()
         {
             string formInfo = File.ReadAllText(@"./files/formInfo.json");
+
+            if (formInfo == string.Empty)
+            {
+                return;
+            }
+
             FormInfo fi = JsonConvert.DeserializeObject<FormInfo>(formInfo);
 
             APP_FORM.Width = fi.width;

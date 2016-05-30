@@ -61,7 +61,14 @@ namespace Vjezba_11_C_sharp_baze_podataka
          */
         private void button1_Click(object sender, EventArgs e)
         {
-            // Delete student
+            var studentEntity = (from student in DB.Studenti
+                         where student.Id == _student.Id
+                         select student).First();
+
+            DB.Studenti.DeleteObject(studentEntity);
+
+            DB.SaveChanges();
+            this.Close();
         }
 
 

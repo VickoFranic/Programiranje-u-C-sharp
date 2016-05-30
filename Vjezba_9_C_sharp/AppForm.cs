@@ -244,10 +244,12 @@ namespace Labs
 		private void showData_Click(object sender, System.EventArgs e)
 		{	
 			Person p =(Person)treeView1.SelectedNode;
+
+			PersonPropertiesForm ppf=new PersonPropertiesForm(p);
+            
             ChangePersonDataCmd cpdc = new ChangePersonDataCmd(p);
             _cmdProcessor.doCmd(cpdc);
 
-			PersonPropertiesForm ppf=new PersonPropertiesForm(p);
 			ppf.ShowDialog(this);
 			if(ppf.DialogResult==DialogResult.OK)
 			{
@@ -266,9 +268,7 @@ namespace Labs
 						p.City=newCity;
 
 						p.updateTreeText();
-					}
-					
-					
+					}					
 				}
 				catch
 				{
