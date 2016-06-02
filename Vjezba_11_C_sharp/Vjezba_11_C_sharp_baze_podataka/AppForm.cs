@@ -11,10 +11,12 @@ namespace Vjezba_11_C_sharp_baze_podataka
 {
     public partial class AppForm : Form
     {
-        StudentiEntities DB = new StudentiEntities();
+        public static StudentiEntities DB;
    
         public AppForm()
         {
+            DB = new StudentiEntities();
+
             InitializeComponent();
 
             populateForm();
@@ -39,14 +41,13 @@ namespace Vjezba_11_C_sharp_baze_podataka
                 listView1.Items.Add(lvi);
             }
 
-            var allCourses = from course in DB.Predmeti
-                             select course;
+            var allCourses = (from course in DB.Predmeti
+                             select course).Distinct();
 
             foreach (Predmeti course in allCourses)
             {
                 ListViewItem lvi = new ListViewItem(course.Id.ToString());
                 lvi.SubItems.Add(course.Naziv);
-
                 listView2.Items.Add(lvi);
             }
         }
