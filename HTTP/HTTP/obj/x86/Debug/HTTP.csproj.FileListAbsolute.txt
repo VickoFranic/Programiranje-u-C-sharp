@@ -1,0 +1,4 @@
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\HTTP\HTTP\bin\Debug\HTTP.exe
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\HTTP\HTTP\bin\Debug\HTTP.pdb
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\HTTP\HTTP\obj\x86\Debug\HTTP.exe
+C:\Users\Vicko\Desktop\C# VJEZBE\Programiranje-u-C-sharp\HTTP\HTTP\obj\x86\Debug\HTTP.pdb
